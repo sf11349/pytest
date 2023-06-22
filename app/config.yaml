@@ -1,0 +1,6 @@
+ds: >
+    Driver={ODBC Driver 17 for SQL Server};
+    Server={...}; 
+    Database={...};    
+    Trusted_Connection=yes;
+    TrustServerCertificate=yes;
