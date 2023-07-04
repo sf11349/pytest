@@ -17,7 +17,7 @@ def app():
                 conn.rollback()
                 raise   
     else:
-        print('ERROR')         
+        print('ERROR: when creating the database engine')         
 
 
 def get_engine(config):
@@ -34,7 +34,7 @@ def get_engine(config):
         return -1
 
 def get_sql_text(file):
-    return os.path.join(os.path.dirname(__file__),file)
+    return os.path.join(os.path.dirname(__file__),'sql',file)
 
 if __name__ == '__main__':
     app()

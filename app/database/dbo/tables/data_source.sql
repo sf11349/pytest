@@ -9,4 +9,4 @@ CREATE TABLE dbo.data_source
 
 INSERT INTO dbo.data_source (name,nhs_no,event,event_date)
 SELECT 'Shawan','123456','CONTACT',GETDATE() UNION ALL
-SELECT 'Joe','00000000','VACINE',GETDATE();
+SELECT 'Joe','00000000','VACCINE',GETDATE();

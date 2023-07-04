@@ -1,6 +1,6 @@
 ds: >
     Driver={ODBC Driver 17 for SQL Server};
-    Server={...}; 
-    Database={...};    
+    Server=PHE-X1012740H\LOCAL_SQL; 
+    Database=pytest_demo;    
     Trusted_Connection=yes;
     TrustServerCertificate=yes;
